@@ -1,5 +1,20 @@
-# ml_final
- 
-Hello!
+# Powerlifting Total Prediction
 
-Most, if not all, of this code runs linearly through the notebooks. There is one major exception, the dataset (found here: https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html) is too large to be uploaded to GitHub, and thus, neither preprocessing file will run without the user first downloading the dataset into the data folder and renaming it 'openpowerlifting.csv'
+This project uses a Multi-Layer Perceptron (MLP) model to predict powerlifting totals based on lifter data from the [OpenPowerlifting](https://www.openpowerlifting.org/) dataset. It also includes a time-series analysis component to explore performance trends over time.
+
+## Features
+
+- **MLP Regression Model** built in Python (Jupyter Notebooks)
+- **Time-Series Analysis** implemented in R (R Markdown)
+- Data preprocessing, training, and evaluation all included
+- Based on real competition data from OpenPowerlifting
+
+## Tech Stack
+
+- Python (NumPy, pandas, scikit-learn, PyTorch)
+- Jupyter Notebooks
+- R + R Markdown (for time-series modeling)
+
+## Note
+
+The OpenPowerlifting export is too large to be stored in this repo, but can be found easily at the above link
